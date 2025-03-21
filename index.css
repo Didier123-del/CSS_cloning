@@ -283,34 +283,28 @@ padding: 90px;
     font-size: 25px;
 }
 
-.step5{
-
-    /* display: flex;
-    gap: 40px; */
-    
-}
 .bgtext{
-    background-color: rgb(248, 246, 246);
+    background-color: rgb(224, 232, 237);
     margin-left: 40%;
     text-align: center;
     
 }
 
-.ff1{
+.ff1i{
     font-size: 20px;
     
     
     
 }
-.ff2{
+.ff2i{
 
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.ff3{
+.ff3i{
     margin-left: 100px;
 }
-.imgstylebb{
+.imgstylebbi{
 
     width: 55%;
      margin-top: -60%;
@@ -333,10 +327,130 @@ padding: 90px;
     padding: 90px;
 }
 .font{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .mouseover1:hover{
     padding: 30px;
-    background-color: rgb(214, 206, 206);
+    background-color: rgb(224, 232, 237);
+}
+.mouseover2:hover{
+    padding: 30px;
+    background-color: rgb(224, 232, 237);
+    width: 30%;
+}
+.font1{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.some{
+    margin-left: 120px;
+    font-size: 25px;
+}
+.imgcare{
+    width: 350px;
+    height: 250px;
+}
+.fontcare{
+    font-size: 25px;
+}
+.fontcare1{
+    font-size: 18px;
+    color: grey;
+}
+.stepcare1{
+    display: flex;
+    gap: 30px;
+    margin-left: 70px;
+   
+}
+
+
+.ff111{
+    font-size: 20px;
+    
+    
+    
+}
+.ff222{
+
+    font-size: 25px;
+}
+
+.ff333{
+    
+}
+.imgstylebb {
+
+    width: 30%;
+     height: 16%;
+}
+.bgtext1{
+    background-color: #0c2340;
+    text-align: center;
+    width: 70%;
+    color: white;
+    
+}
+.step51{
+    display: flex;
+    padding-top: 80px;
+    
+    
+   
+}
+.imghey{
+    width: 100%;
+  
+    
+}
+.money{
+    font-size: 20px;
+}
+.money1{
+    font-size: 20px;
+}
+.money3{
+    display: flex;
+}
+.moneys{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 50px;
+    margin-left: 90px;
+}
+.nextone{
+    background-color:#0c2340;
+    padding: 30px;
+    margin-left: 30%;
+    
+    
+    
+}
+.nextones{
+    gap: 80px;
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.field2i{
+    background-color:#0C2340; /* this is for box will be over riden*/
+    padding: 30px;
+    height: 40px;
+    position: sticky;
+    top: 30px;
+
+
+}
+.field3i{
+    display: inline-flex;/* this is for box will be over riden*/
+    gap: 50px;
+    color: white;
+    list-style: none;
+    margin-left: 300px;
+    font-size: 16px;
+   
 }
