@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+#animation{
+height: 60px;
+width: 60px;
+display: absolute;
+background-color: rgb(169, 235, 15);
+top: 50px;
+left: 50px;}
+
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+  
+<div id="animation">
+
+</div>
+
+<button type="button" onclick="start()">clickme!</button>
+
+
+<script>
+
+let box = document.getElementById("animation");
+let positionX = 0;
+let positionY =0;
+let direction = "right";
+function start(){
+    if(direction === "right"){
+        positionX +=5;
+        if(positionX >= 350){
+        direction = "doun";}
+    }
+else if (direction === "doun"){
+    positionY +=5;
+    if(positionY >=350){
+        direction = "left"; } 
+}
+
+else if (direction === "left"){
+    positionX  -=5;
+    if(positionX <= 50){
+        direction = "up"; }
+}
+else if( direction === "up"){
+    positionY -=5;
+    if(positionY <= 50){
+        direction = "right"; }
+   
+
+}
+animation.style.left = position + "px";
+animation.style.top = position + "px";
+requestAnimationFrame(start);
+}
+
+start();
+</script>
+</body>
+</html>
