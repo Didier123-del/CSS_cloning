@@ -82,3 +82,46 @@
 background-image: url(feature-bg-1600.jpg.jpeg);
 
 }
+.step2{
+padding-left: 60px;
+
+}
+.fontp1{
+    font-size: 20px;
+    color: grey;
+    
+
+}
+.fontp2{
+    font-size: 40px;
+   
+
+}
+
+.styleimg{
+padding: 20px;
+    float: right;
+    margin-top: -32%;
+    height: 400px;
+    width: auto;
+    
+ 
+}
+.step3{
+padding:60px;
+display: inline-flex;
+gap: 60px;
+
+
+
+}
+.step3font{
+    color: grey;
+}
+.step3font1{
+    font-size: 30px;
+}
+.width_img{
+    width: 200px;
+
+}
