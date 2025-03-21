@@ -22,12 +22,16 @@
     font-weight: bold;
 }
 .field2{
-    background-color:rgb(33, 33, 72);
+    background-color:rgb(33, 33, 72);  /* this is for box will be over riden*/
     padding: 20px;
+    height: 40px;
+    position: sticky;
+    top: 30px;
+
 
 }
 .field3{
-    display: inline-flex;
+    display: inline-flex;/* this is for box will be over riden*/
     gap: 50px;
     color: white;
     list-style: none;
@@ -36,7 +40,10 @@
 .img2{
     width: 50px;
     height: 50px;
-    background-image: none;
+    background-image: none; /* this is for box will be over riden*/
+    margin-top: -20px;
+    
+    
 }
 .field4{
     background-color:rgb(252, 249, 249);
@@ -58,11 +65,20 @@
     color: black;
     list-style: none;
     margin-left: 0px;
+    margin-top: -20px;
    
     
 }
+
 .img3{
-    width: 50px;
-    height: 50px;
+   
+    height: 30px;
     background-image: none;
+    height: 5%;
+    width: 10%;
+    margin-top: -20px;
+}
+.background{
+background-image: url(feature-bg-1600.jpg.jpeg);
+
 }
