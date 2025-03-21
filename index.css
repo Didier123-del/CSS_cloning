@@ -112,7 +112,7 @@ padding:60px;
 display: inline-flex;
 gap: 60px;
 
-
+                            /*this is for 3th step*/
 
 }
 .step3font{
@@ -125,3 +125,26 @@ gap: 60px;
     width: 200px;
 
 }
+
+.step4{
+background-image: url(pic5.png);
+
+}
+.step4_font1{
+    font-size: 40px;
+    
+}
+.step4_font2{
+    font-size: 45px;
+    
+}
+.step4_font3{
+    font-size: 35px;
+    
+}
+.step4_font4{
+
+    font-size: 35px;
+    
+}
+
