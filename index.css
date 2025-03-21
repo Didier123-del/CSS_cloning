@@ -131,20 +131,138 @@ background-image: url(pic5.png);
 
 }
 .step4_font1{
-    font-size: 40px;
+    font-size: 20px;
+    color: rgb(186, 181, 181);
+    margin-right: 20px;
     
 }
 .step4_font2{
-    font-size: 45px;
+    font-size: 35px;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    
     
 }
 .step4_font3{
-    font-size: 35px;
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
     
 }
 .step4_font4{
 
-    font-size: 35px;
+    font-size: 20px;
+    color: white;
+    margin-left: 160px;
+    
     
 }
+
+.old_class{
+
+    
+    margin-top: -20px;
+    
+    
+}
+.new_class1{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+.step4_font11{
+    font-size: 20px;
+    color: rgb(186, 181, 181);
+    margin-left: 20px;
+    
+}
+.step4_font22{
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    
+    
+}
+.step4_font33{
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+    
+}
+.step4_font44{
+
+    font-size: 20px;
+    color: white;
+    margin-left: 190px;
+    
+    
+}
+
+.new_class1{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.step4_font1{
+    font-size: 20px;
+    color: rgb(186, 181, 181);
+    margin-right: 20px;
+    
+}
+.step4_font2{
+    font-size: 35px;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    
+    
+}
+.step4_font3{
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    
+}
+.step4_font4{
+
+    font-size: 20px;
+    color: white;
+    margin-left: 160px;
+    
+    
+}
+
+ .old_class1{
+
+    
+    margin-top: -40px;
+    height: auto;
+    
+    
+    
+} 
+.new_class1{
+    display: flex;
+    gap: 20px;
+}
+
+.mouseover:hover{
+
+    background-color: rgb(61, 61, 215);
+   padding: 1rem;
+   border-radius: 5px;
+}
+
+
+
 
